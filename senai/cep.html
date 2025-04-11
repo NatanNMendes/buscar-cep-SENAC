@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta de CEP</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Consulta de CEP</h1>
+        <label for="cepInput">Digite o CEP:</label>
+        <input type="text" id="cepInput" placeholder="Ex: 01001-000">
+        <button onclick="buscarEndereco()">
+            <i class="fas fa-search"></i> Buscar
+        </button>
+        <div id="endereco"></div>
+    </div>
+
+    <script src="./scripts.js"></script>
+</body>
+</html>
